@@ -1,0 +1,291 @@
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43
+            throw new Error('supabaseUrl is required.');
+                  ^
+
+Error: supabaseUrl is required.
+    at new SupabaseClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js:43:19)
+    at createClient (/home/vmmalware/Documents/host2database_script/node_modules/@supabase/supabase-js/dist/main/index.js:38:12)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:8:20)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:33:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.19.1
+/bin/sh: 1: /home/vmmalware/Documents/host2database_script/import.mjs: Permission denied
+/bin/sh: 1: /home/vmmalware/Documents/host2database_script/import.mjs: Permission denied
+/bin/sh: 1: /home/vmmalware/Documents/host2database_script/import.mjs: Permission denied
+/bin/sh: 1: /home/vmmalware/Documents/host2database_script/import.mjs: Permission denied
+✅ Import attempted for 205 rows
+✅ Import attempted for 205 rows
