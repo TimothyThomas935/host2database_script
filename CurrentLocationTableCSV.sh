@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+OUTPUT_DIR="$HOME/shared/db_data"
+mkdir -p "$OUTPUT_DIR"
 # Path to your CSV inside the VM
 CSV_FILE="/mnt/shared/db_data/tagassignment_data.csv"
 
