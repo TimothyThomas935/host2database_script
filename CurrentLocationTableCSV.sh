@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OUTPUT_DIR="$HOME/sql_exports/tagassignment"
+OUTPUT_DIR="$HOME/shared/db_data"
 mkdir -p "$OUTPUT_DIR"
 
 echo "Exporting TagAssignment data..."
