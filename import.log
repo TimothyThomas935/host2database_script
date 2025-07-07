@@ -4604,3 +4604,99 @@ Node.js v18.19.1
 ✅ Import attempted for 205 rows
 ✅ Import attempted for 205 rows
 ✅ Import attempted for 205 rows
+✅ Import attempted for 205 rows
+✅ Import attempted for 205 rows
+✅ Import attempted for 205 rows
+✅ Import attempted for 205 rows
+✅ Import attempted for 205 rows
+✅ Import attempted for 205 rows
+✅ Import attempted for 205 rows
+✅ Import attempted for 205 rows
+✅ Import attempted for 205 rows
+✅ Import attempted for 205 rows
+✅ Import attempted for 205 rows
+✅ Import attempted for 205 rows
+✅ Import attempted for 205 rows
+✅ Import attempted for 205 rows
+✅ Import attempted for 205 rows
+✅ Import attempted for 205 rows
+node:fs:596
+  handleErrorFromBinding(ctx);
+  ^
+
+Error: ENOENT: no such file or directory, open '/mnt/shared/db_data/tagassignment_data.csv'
+    at Object.openSync (node:fs:596:3)
+    at Object.readFileSync (node:fs:464:35)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:14:22)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:37:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/mnt/shared/db_data/tagassignment_data.csv'
+}
+
+Node.js v18.19.1
+node:fs:596
+  handleErrorFromBinding(ctx);
+  ^
+
+Error: ENOENT: no such file or directory, open '/mnt/shared/db_data/tagassignment_data.csv'
+    at Object.openSync (node:fs:596:3)
+    at Object.readFileSync (node:fs:464:35)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:14:22)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:37:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/mnt/shared/db_data/tagassignment_data.csv'
+}
+
+Node.js v18.19.1
+node:fs:596
+  handleErrorFromBinding(ctx);
+  ^
+
+Error: ENOENT: no such file or directory, open '/mnt/shared/db_data/tagassignment_data.csv'
+    at Object.openSync (node:fs:596:3)
+    at Object.readFileSync (node:fs:464:35)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:14:22)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:37:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/mnt/shared/db_data/tagassignment_data.csv'
+}
+
+Node.js v18.19.1
+node:fs:596
+  handleErrorFromBinding(ctx);
+  ^
+
+Error: ENOENT: no such file or directory, open '/mnt/shared/db_data/tagassignment_data.csv'
+    at Object.openSync (node:fs:596:3)
+    at Object.readFileSync (node:fs:464:35)
+    at importCSV (file:///home/vmmalware/Documents/host2database_script/import.mjs:14:22)
+    at file:///home/vmmalware/Documents/host2database_script/import.mjs:37:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/mnt/shared/db_data/tagassignment_data.csv'
+}
+
+Node.js v18.19.1
