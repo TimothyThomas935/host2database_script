@@ -1,46 +1,38 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
 OUTPUT_DIR="$HOME/shared/db_data"
 mkdir -p "$OUTPUT_DIR"
+# Path to your CSV inside the VM
+CSV_FILE="/mnt/shared/db_data/tagassignment_data.csv"
 
-echo "Exporting TagAssignment data..."
+# Full Session-pooler URI with your new inline service_role key
+CONN="postgresql://postgres.zikyldcitoqkbfkipoxe:hvO1q+txUYdpT+HVu+nDm6OGepRUgA1nCrdk7XmUb50xXq0HtUml0GJ3fGQrM8hcAj4CMW+0wkmAW0jrwe7VPg==@aws-0-us-east-1.pooler.supabase.com:5432/postgres?sslmode=require"
 
-OUTPUT_FILE="$OUTPUT_DIR/tagassignment_data.csv"
+# Run the import/merge
+psql --set ON_ERROR_STOP=on "$CONN" <<EOF
+BEGIN;
+  -- Create a staging table matching your real one
+  CREATE TEMP TABLE staging (LIKE tagassignment_data INCLUDING ALL);
 
-SQL_QUERY="
-USE MatrixRFID
-GO
-SET NOCOUNT ON
-SELECT 
-    QUOTENAME(td.FirstName, '\"') AS FirstName, 
-    QUOTENAME(td.LastName, '\"') AS LastName, 
-    td.TagType, 
-    td.TagID, 
-    td.Person, 
-    cl.DateTime, 
-    QUOTENAME(cl.TP_IPPort, '\"') AS TP_IPPort,
-    QUOTENAME(r.Name, '\"') AS ReaderName,
-    QUOTENAME(r.Description, '\"') AS ReaderDescription
-FROM TagDetails td
-LEFT JOIN CurrentLocation cl ON td.TagID = cl.TagID
-LEFT JOIN (
-    SELECT IPPort, NewAntennaSerialNumber, Name, Description, 
-           ROW_NUMBER() OVER (PARTITION BY IPPort, NewAntennaSerialNumber ORDER BY id) AS rn
-    FROM Readers
-) r ON cl.TP_IPPort = r.IPPort 
-    AND cl.NewAntennaSerialNumber = r.NewAntennaSerialNumber 
-    AND r.rn = 1
-WHERE td.Person = 1
-GO
-QUIT
-"
+  -- Bulk-load your CSV into staging
+  \copy staging FROM '$CSV_FILE' CSV HEADER;
 
-# Write headers
-echo "FirstName,LastName,TagType,TagID,Person,DateTime,TP_IPPort,ReaderName,ReaderDescription" > "$OUTPUT_FILE"
+  -- Upsert into your real table on TagID
+  INSERT INTO tagassignment_data
+    SELECT * FROM staging
+  ON CONFLICT ("TagID") DO UPDATE
+    SET
+      "FirstName"         = EXCLUDED."FirstName",
+      "LastName"          = EXCLUDED."LastName",
+      "TagType"           = EXCLUDED."TagType",
+      "Person"            = EXCLUDED."Person",
+      "DateTime"          = EXCLUDED."DateTime",
+      "TP_IPPort"         = EXCLUDED."TP_IPPort",
+      "ReaderName"        = EXCLUDED."ReaderName",
+      "ReaderDescription" = EXCLUDED."ReaderDescription";
+COMMIT;
+EOF
 
-# Get data
-echo "$SQL_QUERY" | tsql -S METSServer -U sa -P tracy123 -t, 2>/dev/null | \
-grep -vE 'locale|charset|rows affected|^[[:space:]]*[0-9]>|^$' | \
-sed 's/^[ \t]*//;s/[ \t]*$//' >> "$OUTPUT_FILE"
+echo "✅ Import complete"
 
-echo "Done! CSV file is at $OUTPUT_FILE"
